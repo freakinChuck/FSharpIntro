@@ -66,5 +66,3 @@ let demo () =
     let client1Actions = doRandomly (fun () -> client1.post "Ich bin Hans") 10
     let client2Actions = doRandomly (fun () -> client2.post "Halt's Maul!") 10
     [client1Actions;client2Actions] |> Async.Parallel |> Async.RunSynchronously |> ignore
-    printf "\nFortfahren mit [Enter]"
-    System.Console.ReadLine () |> ignore
