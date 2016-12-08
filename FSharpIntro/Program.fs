@@ -6,6 +6,7 @@ type MenuItem = { name:string; action:(unit->unit) }
 let menuItems = [
         { name="Agentenprogrammierung"; action=Agentenprogrammierung.demo }
         { name="Parameteruebergabe"; action=Parameteruebergabe.demo }
+        { name="Compilerdirektiven"; action=CompilerDirectives.demo }
     ]
 
 let (|Int|_|) string = 

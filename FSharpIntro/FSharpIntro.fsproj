@@ -50,6 +50,7 @@
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Agentenprogrammierung.fs" />
     <Compile Include="Parameteruebergabe.fs" />
+    <Compile Include="CompilerDirectives.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
   </ItemGroup>
