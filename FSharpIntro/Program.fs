@@ -7,9 +7,10 @@ let menuItems = [
         { name="Agentenprogrammierung"; action=Agentenprogrammierung.demo }
         { name="Parameteruebergabe"; action=Parameteruebergabe.demo }
         { name="Compilerdirektiven"; action=CompilerDirectives.demo }
-        { name="DotNetInterop"; action=DotNetInterop.demo }
+        { name="DotNetInterop (Aufgabe 6 Woche 7)"; action=DotNetInterop.demo }
         { name="Funktionale Programmierung"; action=FunktionaleProgrammierung.demo }
         { name="Funktionskomposition"; action=Funktionskomposition.demo }
+        { name="Aufgabe 3 Woche 5"; action=Aufgaben.woche5Aufgabe3Demo }
     ]
 
 let (|Int|_|) string = 
