@@ -6,7 +6,7 @@ let permutate array =
     Permutations.Permutate array
 
 
-let demo = 
+let demo () = 
     printfn "----------------------------------------------------------------"
     printfn "DotNetInterop.demo"
     printfn "Permutations.Permutate [ 1 ; 2; 3 ]"

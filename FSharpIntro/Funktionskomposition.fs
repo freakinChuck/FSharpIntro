@@ -5,7 +5,7 @@ let inc x = x+1
 
 let squareAndInc x = square x |> inc
 
-let demo = 
+let demo () = 
     printfn "----------------------------------------------------------------"
     printfn "Funktionskomposition.demo"
     let fiveSquareAndThenInc = squareAndInc 5 

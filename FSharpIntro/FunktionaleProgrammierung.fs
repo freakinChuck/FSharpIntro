@@ -3,7 +3,7 @@
 let mul x y = x*y
 let doMath x y op = op y x
 
-let demo =     
+let demo () =     
     printfn "----------------------------------------------------------------"
     printfn "FunktionaleProgrammierung.demo"
     printfn "let mul x y = x*y"
