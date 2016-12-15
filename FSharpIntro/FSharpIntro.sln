@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpIntro", "FSharpIntro.fsproj", "{77E416F4-2DEA-4C4E-A228-0CF16EFB4478}"
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "FSharpIntro", "FSharpIntro.fsproj", "{77E416F4-2DEA-4C4E-A228-0CF16EFB4478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCode", "..\CSharpCode\CSharpCode.csproj", "{D1923258-0C1D-4F64-8AD5-82C394585398}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{77E416F4-2DEA-4C4E-A228-0CF16EFB4478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77E416F4-2DEA-4C4E-A228-0CF16EFB4478}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77E416F4-2DEA-4C4E-A228-0CF16EFB4478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1923258-0C1D-4F64-8AD5-82C394585398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1923258-0C1D-4F64-8AD5-82C394585398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1923258-0C1D-4F64-8AD5-82C394585398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1923258-0C1D-4F64-8AD5-82C394585398}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -51,8 +50,18 @@
     <Compile Include="Agentenprogrammierung.fs" />
     <Compile Include="Parameteruebergabe.fs" />
     <Compile Include="CompilerDirectives.fs" />
-    <Compile Include="Program.fs" />
     <None Include="App.config" />
+    <Compile Include="Aufgaben.fs" />
+    <Compile Include="DotNetInterop.fs" />
+    <Compile Include="FunktionaleProgrammierung.fs" />
+    <Compile Include="Funktionskomposition.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSharpCode\CSharpCode.csproj">
+      <Project>{D1923258-0C1D-4F64-8AD5-82C394585398}</Project>
+      <Name>CSharpCode</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
