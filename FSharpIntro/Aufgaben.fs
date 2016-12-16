@@ -1,5 +1,6 @@
 ﻿module Aufgaben
 
+
 let diagonaleBerechnen laenge breite = 
     sqrt ((laenge*laenge) + (breite*breite))
 
