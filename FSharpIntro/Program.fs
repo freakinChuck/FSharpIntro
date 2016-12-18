@@ -1,12 +1,11 @@
-﻿// Learn more about F# at http://fsharp.org
-// See the 'F# Tutorial' project for more help.
-
-type MenuItem = { name:string; action:(unit->unit) }
+﻿type MenuItem = { name:string; action:(unit->unit) }
 
 let menuItems = [
         { name="Agentenprogrammierung"; action=Agentenprogrammierung.demo }
         { name="Parameteruebergabe"; action=Parameteruebergabe.demo }
         { name="Compilerdirektiven"; action=CompilerDirectives.demo }
+        { name="Uebung3-4_7"; action=Exercises3_4.exercise7}
+        { name="Uebung3-5_6"; action=Exercise5_6.exercise7}
     ]
 
 let (|Int|_|) string = 

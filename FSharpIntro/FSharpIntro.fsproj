@@ -51,6 +51,8 @@
     <Compile Include="Agentenprogrammierung.fs" />
     <Compile Include="Parameteruebergabe.fs" />
     <Compile Include="CompilerDirectives.fs" />
+    <Compile Include="Exercises3-4.fs" />
+    <Compile Include="Exercise5-6.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
   </ItemGroup>
