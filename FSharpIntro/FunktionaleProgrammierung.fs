@@ -16,6 +16,18 @@ let demoFirstClassCitizen () =
     let result = doMath 5 6 mul
     printfn "result = %A" result
 
+let aufgabe2Woche8 array = 
+    printfn "----------------------------------------------------------------"
+    printfn "FunktionaleProgrammierung.aufgabe2Woche8"
+    array 
+        |> Seq.toList
+        |> Seq.iter
+            (
+                fun number -> 
+                    printf "%A: " number
+                    printfn "%A" (number*number)
+            )
+            
 let demo () = 
     printfn "FunktionaleProgrammierung.demo"
     let sum = 
@@ -27,4 +39,7 @@ let demo () =
 
     printfn "sum = %A" sum
     demoFirstClassCitizen ()
+    aufgabe2Woche8 [1..5]
+
+
     

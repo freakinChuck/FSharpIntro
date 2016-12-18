@@ -8,7 +8,7 @@ let menuItems = [
         { name="Parameteruebergabe"; action=Parameteruebergabe.demo }
         { name="Compilerdirektiven"; action=CompilerDirectives.demo }
         { name="DotNetInterop (Aufgabe 6 Woche 7)"; action=DotNetInterop.demo }
-        { name="Funktionale Programmierung"; action=FunktionaleProgrammierung.demo }
+        { name="Funktionale Programmierung (Aufgabe 2 Woche 8)"; action=FunktionaleProgrammierung.demo }
         { name="Funktionskomposition"; action=Funktionskomposition.demo }
         { name="Aufgabe 3 Woche 5"; action=Aufgaben.woche5Aufgabe3Demo }
     ]
