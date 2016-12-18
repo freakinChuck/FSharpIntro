@@ -4,12 +4,15 @@ let menuItems = [
         { name="Agentenprogrammierung"; action=Agentenprogrammierung.demo }
         { name="Parameteruebergabe"; action=Parameteruebergabe.demo }
         { name="Compilerdirektiven"; action=CompilerDirectives.demo }
+<<<<<<< HEAD
+        { name="Uebung3-4_7"; action=Exercises3_4.exercise7}
+        { name="Uebung3-5_6"; action=Exercise5_6.exercise7}
+=======
         { name="DotNetInterop (Aufgabe 6 Woche 7)"; action=DotNetInterop.demo }
         { name="Funktionale Programmierung (Aufgabe 2 Woche 8)"; action=FunktionaleProgrammierung.demo }
         { name="Funktionskomposition"; action=Funktionskomposition.demo }
         { name="Aufgabe 3 Woche 5"; action=Aufgaben.woche5Aufgabe3Demo }
-        { name="Uebung3-4_7"; action=Exercises3_4.exercise7}
-        { name="Uebung3-5_6"; action=Exercise5_6.exercise7}
+>>>>>>> 4c2ea70e17ceeae44b36ba7cea6c2b5b81855f85
     ]
 
 let (|Int|_|) string = 

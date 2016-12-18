@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -51,13 +50,17 @@
     <Compile Include="Agentenprogrammierung.fs" />
     <Compile Include="Parameteruebergabe.fs" />
     <Compile Include="CompilerDirectives.fs" />
+<<<<<<< HEAD
+    <Compile Include="Exercises3-4.fs" />
+    <Compile Include="Exercise5-6.fs" />
+    <Compile Include="Program.fs" />
+=======
+>>>>>>> 4c2ea70e17ceeae44b36ba7cea6c2b5b81855f85
     <None Include="App.config" />
     <Compile Include="Aufgaben.fs" />
     <Compile Include="DotNetInterop.fs" />
     <Compile Include="FunktionaleProgrammierung.fs" />
     <Compile Include="Funktionskomposition.fs" />
-    <Compile Include="Exercises3-4.fs" />
-    <Compile Include="Exercise5-6.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>
